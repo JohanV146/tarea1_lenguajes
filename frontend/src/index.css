@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+body {
+  font-family: 'Changa One', sans-serif;
+  .bg-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-image: url('./Imagenes/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .btn-preguntados {
+    background-color: #ffac33; /* Dorado con tono naranja */
+    color: #333;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    font-family: 'Changa One', sans-serif;
+    margin: 10px 0;
+  }
+  
+  .btn-preguntados:last-child {
+    margin-right: 0;
+  }
+  
+  .btn-preguntados:hover {
+    background-color: #e09930; /* Color ligeramente más oscuro al hacer hover */
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .buttons-container {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
